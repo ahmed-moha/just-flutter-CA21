@@ -7,47 +7,36 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.blue,
         title: const Text(
-          "Welcome CA21",
-          style: TextStyle(color: Colors.white, fontSize: 30),
+          "Welcome",
+          style: TextStyle(color: Colors.white),
         ),
-        actions: const [
-          Icon(
-            Icons.search,
-            color: Colors.white,
-            size: 50,
-          ),
-          Icon(Icons.hotel_class_rounded,  color: Colors.white,
-            size: 50,)
+       
+      ),
+      body:   Column(
+        mainAxisAlignment:MainAxisAlignment.spaceAround ,
+        // crossAxisAlignment:CrossAxisAlignment.center ,
+        children: [
+        //  Container(
+        //    width: 100,
+        //    height: 100,
+        //    color: Colors.red,
+        //  ),
+        //   Container(
+        //    width: 100,
+        //    height: 100,
+        //    color: Colors.blue,
+        //  ),
+        //   Container(
+        //    width: 100,
+        //    height: 100,
+        //    color: Colors.black,
+        //  )
+
+        Image.asset("images/1.jpeg"),
         ],
       ),
-      body:Column(
-        children: [
-          Row(
-            children: [
-              Container(
-                width: 200,
-                height: 200,
-                color: Colors.red,
-              ),
-              Container(
-                width: 200,
-                height: 200,
-                color: Colors.black,
-              )
-            ],
-          ),
-
-
-          // const Image(
-          //   image: NetworkImage("https://docs.flutter.dev/assets/images/dash/dash-fainting.gif"),
-          // ),
-
-        Image.network("https://docs.flutter.dev/assets/images/dash/dash-fainting.gif")
-
-        ],
-      )
     );
   }
 }
