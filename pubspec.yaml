@@ -59,6 +59,12 @@ flutter:
   uses-material-design: true
   assets:
     - images/
+    - fonts/
+  fonts:
+    - family: lob
+      fonts:
+        - asset: fonts/Lobster-Regular.ttf
+        
      
   
   
