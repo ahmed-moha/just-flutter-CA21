@@ -22,6 +22,7 @@ class LessonThree extends StatelessWidget {
             UserCard(
               imagePath: "images/1.jpeg",
               title: "Ahmed Mohamed",
+              description: "Ceo",
             ),
             SizedBox(
               height: 16,
@@ -29,18 +30,8 @@ class LessonThree extends StatelessWidget {
             UserCard(
               imagePath: "images/1.jpeg",
               title: "Mohamed Hassan",
-              description: "Marketing Manager",
-            ),
-            SizedBox(height: 16,),
-             UserCard(imagePath: "images/1.jpeg",title: "Mohamed Hassan",),
-             SizedBox(height: 16,),
-             UserCard(imagePath: "images/1.jpeg",title: "Mohamed Hassan",),
-             SizedBox(height: 16,),
-             UserCard(imagePath: "images/1.jpeg",title: "Mohamed Hassan",),
-             SizedBox(height: 16,),
-             UserCard(imagePath: "images/1.jpeg",title: "Mohamed Hassan",),
-             SizedBox(height: 16,),
-             UserCard(imagePath: "images/1.jpeg",title: "Mohamed Hassan",)
+              backgroundColor: Colors.green,
+            )
           ],
         ),
       ),
